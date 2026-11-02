@@ -3,14 +3,38 @@
 ## Semana 9 nov - 13 nov
 
 ## Semana 2 nov - 6 nov
+- ...
+- Elaboração do sprint 2 (slides e apresentação) para a cadeira de PDE.
+
 
 ## Semana 26 out - 30 out
 
+- Continuação da leitura de artigos sobre Federated Learning descentralizado, com foco nos mecanismos de comunicação e agregação entre nós.
+- Início da elaboração do estado da arte, sistematizando as abordagens estudadas e a sua relação com os objetivos da tese.
+- Desenvolvimento do projeto complementar HVAA:
+  - Implementação de um sistema de votação por consenso e de uma fase de revisão final das imagens.
+  - Melhoria da interface de validação, incluindo a navegação nas imagens e a possibilidade de desfazer votos e correções recentes.
+  - Evolução do site de avaliação das câmaras para recolher propostas de manutenção e de ajuste dos limiares de confiança.
+  - Medição e otimização dos tempos de resposta, organização do código num repositório Git e documentação da arquitetura e do fluxo de validação.
+
 ## Semana 19 out - 23 out
+
+- Leitura e síntese de artigos sobre Federated Learning centralizado e descentralizado, identificando diferenças nas arquiteturas e nas estratégias de coordenação.
+- Definição da estrutura preliminar do estado da arte e organização das referências bibliográficas por tema.
+- Desenvolvimento do projeto complementar HVAA:
+  - Análise das limitações do primeiro MVP e implementação de um fluxo por fases para validar e corrigir deteções e anotar objetos em falta.
+  - Preparação de conjuntos de imagens de diferentes câmaras e de um projeto separado no CVAT para avaliar a qualidade das deteções e os respetivos limiares de confiança.
+  - Desenvolvimento inicial de um site de avaliação das câmaras e implementação de sessões de revisão e de um sistema de pontuação e classificação dos utilizadores.
+  - Realização de testes de importação e validação com imagens captadas pelas câmaras reais.
 
 ## Semana 12 out - 16 out
 
-- ...
+- Preparação do ambiente de escrita da tese, incluindo a configuração do template, da estrutura inicial do documento e da bibliografia.
+- Continuação da pesquisa bibliográfica sobre Federated Learning descentralizado e seleção de artigos para integrar no estado da arte.
+- Desenvolvimento do projeto complementar HVAA:
+  - Seleção de câmaras, organização das imagens e definição da estrutura de importação no CVAT, com um projeto por câmara e tarefas por lotes de imagens.
+  - Análise das deteções automáticas e ajuste do limiar mínimo de confiança.
+  - Evolução da interface para orientar a validação por classes e simplificar as escolhas do utilizador.
 - Elaboração do sprint 1 (slides e apresentação) para a cadeira de PDE.
 
 ## Semana 5 out - 9 out
@@ -57,3 +81,4 @@
 - **CVAT — Computer Vision Annotation Tool:** ferramenta de anotação de imagens e vídeos utilizada como base para o fluxo de anotação e validação do HVAA.
 - **MVP — Minimum Viable Product (Produto Mínimo Viável):** primeira versão funcional com as funcionalidades essenciais para validar a solução.
 - **IT — Instituto de Telecomunicações:** instituição onde está disponível a infraestrutura utilizada no trabalho.
+- **RTSP — Real-Time Streaming Protocol:** protocolo utilizado para aceder às transmissões de vídeo das câmaras.
