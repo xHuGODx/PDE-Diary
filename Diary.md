@@ -1,11 +1,40 @@
 # PDE-Diary
 
+## Semana 23 nov - 27 nov
+
+- Elaboração do sprint 3 (slides e apresentação) para a cadeira de PDE.
+
+
+## Semana 16 nov - 20 nov
+
+- Análise de arquiteturas e soluções de Federated Learning descentralizado aplicáveis à solução proposta.
+- Definição preliminar da metodologia da dissertação, incluindo a arquitetura, a implementação e a estratégia de avaliação.
+- Preparação do sprint 3 da cadeira de PDE, com foco na metodologia, arquitetura e soluções a utilizar.
+- Desenvolvimento do projeto complementar HVAA:
+  - Integração com o Vision Harvester (Um projeto complementar que automatiza a recolha de dados das cameras para uso postrior) para importar imagens para o HVAA, com organização por câmara no CVAT e controlo de duplicados.
+  - Contribuições para o Vision Harvester na identificação da origem das capturas e na filtragem por políticas de captura e intervalo horário, incluindo testes e documentação.
+  - Disponibilização do HVAA num domínio institucional (it.pt).
+  - Seleção e importação de uma primeira amostra de 667 imagens, privilegiando períodos de maior tráfego, com medição do tempo de processamento e verificação das deteções automáticas.
+
 ## Semana 9 nov - 13 nov
 
-## Semana 2 nov - 6 nov
-- ...
-- Elaboração do sprint 2 (slides e apresentação) para a cadeira de PDE.
+- Análise da metodologia de testes do MobFedLS, incluindo os cenários experimentais, as métricas de avaliação e as limitações identificadas.
+- Estudo de estratégias de avaliação utilizadas em soluções de Federated Learning relacionadas e da sua aplicabilidade à dissertação.
+- Desenvolvimento do projeto complementar HVAA:
+  - Recolha e análise do feedback dos primeiros utilizadores para identificar problemas de usabilidade.
+  - Implementação de opções para saltar tarefas com imagens de qualidade insuficiente e excluir imagens sem objetos relevantes para o dataset.
+  - Melhoria da interface e do fluxo de revisão final, incluindo ajustes ao zoom, modo escuro e eliminação de etapas de validação repetidas.
 
+## Semana 2 nov - 6 nov
+
+- Revisão da arquitetura do MobFedLS e das estratégias de teste e avaliação do trabalho anterior.
+- Análise preliminar de abordagens metodológicas para a dissertação, tendo em conta as soluções estudadas no estado da arte.
+- Desenvolvimento do projeto complementar HVAA:
+  - Disponibilização na rede interna para testes piloto e realização de testes de carga com até 60 revisores, incluindo simulações com tempos de decisão próximos dos reais.
+  - Implementação de mecanismos de reserva e prioridade de tarefas para coordenar os revisores e dar prioridade às imagens pendentes há mais tempo.
+  - Otimização do fluxo de validação e da importação em lote, incluindo publicação em segundo plano e retoma de importações interrompidas.
+  - Melhoria das opções de correção de objetos em falta e adição de suporte para português e inglês.
+- Elaboração do sprint 2 (slides e apresentação) para a cadeira de PDE.
 
 ## Semana 26 out - 30 out
 
